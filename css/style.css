@@ -3655,3 +3655,11 @@ textarea.form-control { height: inherit !important; }
     stroke-dashoffset: -136px; } }
 
 /*# sourceMappingURL=maps/style.css.map */
+#portfolio img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#portfolio .col-6 {
+  margin-bottom: 50px;
+}
