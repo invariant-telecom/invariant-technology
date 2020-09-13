@@ -3663,3 +3663,77 @@ textarea.form-control { height: inherit !important; }
 #portfolio .col-6 {
   margin-bottom: 50px;
 }
+
+.underline {
+  border-bottom: 1px solid #eee;
+}
+
+.underline:focus {
+  border-bottom: 1px solid #007bff;
+}
+
+/*members*/
+ul {
+  list-style: none;
+}
+.team_item {
+    transition: all 400ms linear 0s;
+    margin-bottom: 50px;
+}
+.about_team {
+    margin-top: 50px;
+    text-align: center;
+    overflow: hidden;
+}
+.team_item .team_img {
+    position: relative;
+    text-align: center;
+}
+.team_item .team_img img {
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+}
+.team_item .team_img {
+    position: relative;
+    text-align: center;
+}
+.team_item .team_img .team_links {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+    box-shadow: 0px -1px 3px rgba(0,0,0,0.2);
+    background: linear-gradient(rgba(255,255,255,0.4), #fff);
+    width: 100%;
+    bottom: -5px;
+}
+.team_item .team_img .team_links .media_icons {
+    text-align: center;
+}
+.team_item .team_img .team_links .media_icons .f_social_icon {
+    font-size: 20px;
+    margin: 5px;
+    display: inline-block;
+}
+.team_item .team_name {
+    padding: 15px 10px;
+}
+.team_item .team_name h4 {
+    color: #3c4379;
+    margin: 0;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: none;
+    font-style: normal;
+    line-height: 1.2em;
+}
+
+.team_item .team_name p {
+    text-align: left;
+    color: #3f3f3f;
+    font-weight: 300;
+    font-size: 16px;
+}
+
